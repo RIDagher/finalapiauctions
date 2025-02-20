@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auction Listings</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Our Script -->
+    <script src="./scripts/script.js" defer></script>
+  </head>
+  <body class="container mt-4" id="index-page">
+    <h2 class="text-center">Auction Listings</h2>
+    <div class="text-end mb-3">
+      <a href="additem.html" class="btn btn-primary">+ Add Item</a>
+    </div>
+    <div id="alert-box" class="alert d-none"></div>
+    <table class="table table-bordered">
+      <thead class="table-light">
+        <tr>
+          <th>#</th>
+          <th>Item Code</th>
+          <th>Description</th>
+          <th>Seller</th>
+          <th>Last Bid</th>
+          <th>Last Bidder</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="auction-list"></tbody>
+    </table>
+
+    <div id="bid-section" class="mt-4 d-none">
+      <h3>Bidding on: <span id="bid-item"></span></h3>
+      <p>Current bid: $<span id="bid-current"></span></p>
+      <input
+        type="number"
+        id="new-bid"
+        class="form-control mb-2"
+        placeholder="Enter new bid"
+      />
+      <input
+        type="email"
+        id="bidder-email"
+        class="form-control mb-2"
+        placeholder="Your email"
+      />
+      <button class="btn btn-success" id="place-bid">Place Bid</button>
+      <button class="btn btn-secondary" id="cancel-bid">Cancel</button>
+    </div>
+  </body>
+</html>

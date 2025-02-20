@@ -1,0 +1,19 @@
+
+[2025-02-20T00:39:27.541Z] [INFO] [✅ Database synchronized successfully] DB
+[2025-02-20T00:39:27.545Z] [INFO] [🚀 Running on port 3001] Server
+[2025-02-20T00:39:32.435Z] [HTTP] [/api/auctions] GET
+[2025-02-20T00:39:32.441Z] [INFO] [Fetched 8 auctions] GET /api/auctions
+[2025-02-20T00:39:37.779Z] [HTTP] [/api/auctions] GET
+[2025-02-20T00:39:37.782Z] [INFO] [Fetched 8 auctions] GET /api/auctions
+[2025-02-20T00:44:30.150Z] [HTTP] [/api/auctions] GET
+[2025-02-20T00:44:30.219Z] [INFO] [Fetched 8 auctions] GET /api/auctions
+[2025-02-20T00:46:40.599Z] [HTTP] [/api/auctions/11] PATCH
+[2025-02-20T00:46:40.621Z] [WARN] [Unknown IP] bid rejected: 80 is not higher than 90.00
+[2025-02-20T00:47:16.511Z] [HTTP] [/api/auctions] GET
+[2025-02-20T00:47:16.535Z] [INFO] [Fetched 8 auctions] GET /api/auctions
+[2025-02-20T00:47:37.589Z] [HTTP] [/api/auctions] GET
+[2025-02-20T00:47:37.620Z] [INFO] [Fetched 8 auctions] GET /api/auctions
+[2025-02-20T00:47:56.027Z] [HTTP] [/api/auctions/13] PATCH
+[2025-02-20T00:47:56.059Z] [INFO] [Unknown IP] Bid of 500 was placed succefully
+[2025-02-20T00:47:56.062Z] [HTTP] [/api/auctions] GET
+[2025-02-20T00:47:56.065Z] [INFO] [Fetched 8 auctions] GET /api/auctions
